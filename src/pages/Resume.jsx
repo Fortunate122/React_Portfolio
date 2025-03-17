@@ -3,7 +3,7 @@ function Resume() {
       <section>
         <h2>Resume</h2>
         <p>
-          <a href="/assets/resume.pdf" download>
+          <a href="src/assets/Resume_DS.pdf" download>
             Download My Resume
           </a>
         </p>
@@ -13,7 +13,7 @@ function Resume() {
           <li>React</li>
           <li>Node.js</li>
           <li>HTML & CSS</li>
-          <li>MongoDB</li>
+          <li>Typescript</li>
           <li>Express.js</li>
         </ul>
       </section>
