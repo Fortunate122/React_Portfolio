@@ -9,7 +9,7 @@ const projects = [
   },
   {
     title: "Employee Tracker",
-    image: "src/assets/fitness-app-sh.png",
+    image: "src/assets/employee-tracker-sh.png",
     liveLink: "https://drive.google.com/file/d/1fHxxTIy77h6cl7uqggaGEGN5snNsTNDH/view",
     repoLink: "https://github.com/Fortunate122/Employee_Tracker",
   },
@@ -33,8 +33,8 @@ const projects = [
   },
   {
     title: "React_Portfolio",
-    image: "/assets/project6.jpg",
-    liveLink: "https://example.com/project6",
+    image: "src/assets/react-portfolio-sh.png",
+    liveLink: "https://cute-puffpuff-2bcfd1.netlify.app/",
     repoLink: "https://github.com/Fortunate122/React_Portfolio",
   },
 ];
