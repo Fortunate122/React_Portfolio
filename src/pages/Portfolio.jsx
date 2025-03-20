@@ -20,19 +20,19 @@ const projects = [
     repoLink: "https://github.com/Fortunate122/Pro_Readme_Generator",
   },
   {
-    title: "Easy_Weather",
+    title: "Easy Weather",
     image: "src/assets/easy-weather-sh.png",
     liveLink: "https://weather-dashboard-f4b1.onrender.com/",
     repoLink: "https://github.com/Fortunate122/Easy_Weather",
   },
   {
-    title: "Vehicle_Builder_app",
+    title: "Vehicle Builder",
     image: "src/assets/vehicle-builder-sh.png",
     liveLink: "https://drive.google.com/file/d/17eMY5t8aACiq8urOk2owX6HKY_5kXEO7/view",
     repoLink: "https://github.com/Fortunate122/Vehicle_Builder_app",
   },
   {
-    title: "React_Portfolio",
+    title: "React Portfolio",
     image: "src/assets/react-portfolio-sh.png",
     liveLink: "https://cute-puffpuff-2bcfd1.netlify.app/",
     repoLink: "https://github.com/Fortunate122/React_Portfolio",
