@@ -1,8 +1,11 @@
+import profilePic from "../assets/very-nice.jpg";
+
+
 function AboutMe() {
     return (
       <section>
         <h2>About Me</h2>
-        <img src="src/assets/very-nice.jpg" alt="Profile" className="profile-pic" />
+        <img src={profilePic} alt="Profile" className="profile-pic" />
         <p>
           Hello! I'm a test engineer that has recently become a web developer that is passionate about building interactive and
           user-friendly web applications. I have experience with React, JavaScript,
