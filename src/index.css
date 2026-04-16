@@ -256,6 +256,10 @@ h3 {
 }
 
 /* Contact Form */
+form[hidden] {
+  display: none !important;
+}
+
 form {
   display: flex;
   flex-direction: column;
