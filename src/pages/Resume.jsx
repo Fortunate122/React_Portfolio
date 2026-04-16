@@ -3,7 +3,7 @@ function Resume() {
       <section>
         <h2>Resume</h2>
         <p>
-          <a href="src/assets/Resume_DS.pdf" download>
+          <a href="public\Resume_DS_03-26.pdf" download>
             Download My Resume
           </a>
         </p>

@@ -161,6 +161,13 @@ h3 {
   margin-bottom: 18px;
 }
 
+.contact-intro {
+  max-width: 650px;
+  margin: 0 auto 24px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
 /* Portfolio Section */
 .portfolio-section {
   max-width: 1200px;
