@@ -30,6 +30,7 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
+/* Theme Toggle */
 .theme-toggle {
   background: var(--primary-color);
   color: white;
@@ -45,7 +46,7 @@ body {
   background: #535bf2;
 }
 
-/* Header & Navigation */
+/* Header */
 .header {
   position: fixed;
   top: 0;
@@ -66,38 +67,73 @@ body {
   color: var(--primary-color);
 }
 
-nav {
+/* Navigation */
+.nav-container {
   display: flex;
 }
 
-nav ul {
+.nav-list {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  gap: 24px;
   padding: 0;
   margin: 0;
-  max-width: 100%;
+  align-items: center;
 }
 
-nav ul li * {
+.nav-list li a {
   color: var(--text-color);
   text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s;
+  font-weight: 600;
+  font-size: 0.95rem;
+  position: relative;
+  transition: color 0.25s ease;
 }
 
-nav ul li *:hover,
-.active {
+/* Hover */
+.nav-list li a:hover {
   color: var(--primary-color);
 }
 
-/* Main Content Sections */
+/* Active */
+.nav-list li a.active {
+  color: var(--primary-color);
+}
+
+/* Underline animation */
+.nav-list li a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: var(--primary-color);
+  transition: width 0.25s ease;
+}
+
+.nav-list li a:hover::after,
+.nav-list li a.active::after {
+  width: 100%;
+}
+
+/* Main Sections */
 section {
   padding: 120px 24px 80px;
   text-align: center;
 }
 
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+/* About Section */
 .about-section {
   max-width: 900px;
   margin: 0 auto;
@@ -125,16 +161,7 @@ section {
   margin-bottom: 18px;
 }
 
-h2 {
-  font-size: 2.5rem;
-  margin-bottom: 16px;
-}
-
-h3 {
-  font-size: 1.5rem;
-  margin-bottom: 12px;
-}
-
+/* Portfolio Section */
 .portfolio-section {
   max-width: 1200px;
   margin: 0 auto;
@@ -147,7 +174,7 @@ h3 {
   line-height: 1.6;
 }
 
-/* Portfolio Project Grid */
+/* Project Grid */
 .project-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -280,7 +307,7 @@ footer a {
   margin: 0 10px;
 }
 
-/* Responsive Styles */
+/* Responsive */
 @media (max-width: 1024px) {
   .header {
     flex-direction: column;
@@ -288,7 +315,7 @@ footer a {
     padding: 14px 18px;
   }
 
-  nav ul {
+  .nav-list {
     justify-content: center;
     gap: 12px;
     margin-top: 10px;
@@ -298,6 +325,11 @@ footer a {
 @media (max-width: 767px) {
   h2 {
     font-size: 2rem;
+  }
+
+  .nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .project-list {
