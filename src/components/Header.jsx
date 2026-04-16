@@ -24,7 +24,7 @@ function Header() {
 
   return (
     <header className="header">
-      <h1>David Saldaña |Portfolio</h1>
+      <h1>David Saldaña | Portfolio</h1>
       <Navigation />
       <button onClick={toggleTheme} className="theme-toggle">
         {darkMode ? "🌞 Light Mode" : "🌙 Dark Mode"}
