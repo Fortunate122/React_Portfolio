@@ -98,6 +98,33 @@ section {
   text-align: center;
 }
 
+.about-section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 10px auto 24px;
+  display: block;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-content {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.7;
+  font-size: 1.02rem;
+}
+
+.about-content p {
+  margin-bottom: 18px;
+}
+
 h2 {
   font-size: 2.5rem;
   margin-bottom: 16px;

@@ -1,22 +1,33 @@
 import profilePic from "../assets/very-nice.jpg";
 
-
 function AboutMe() {
-    return (
-      <section>
-        <h2>About Me</h2>
-        <img src={profilePic} alt="Profile" className="profile-pic" />
+  return (
+    <section className="about-section">
+      <h2>About Me</h2>
+      <img src={profilePic} alt="Profile" className="profile-pic" />
+
+      <div className="about-content">
         <p>
-          Hello! I'm a test engineer that has recently become a web developer that is passionate about building interactive and
-          user-friendly web applications. I have experience with React, JavaScript,
-          and modern front-end technologies. I also have experience with C++ and Python along with other embedded languages.
-          I love solving problems and creating efficient solutions. In my free time, I enjoy playing video games, reading books,
-          and exploring new technologies. I'm always eager to learn and take on new challenges.
-          Let's connect and create something amazing together!
+          I am a test engineer with a background in hardware, system validation,
+          and problem-solving who has expanded into web development to build
+          clean, interactive, and user-focused applications.
         </p>
-      </section>
-    );
-  }
-  
-  export default AboutMe;
-  
+
+        <p>
+          My experience includes working with technologies such as React,
+          JavaScript, Python, and C++, along with hands-on engineering work that
+          has strengthened my approach to troubleshooting, logic, and building
+          reliable solutions.
+        </p>
+
+        <p>
+          I enjoy creating applications that are both functional and intuitive,
+          and I am continually sharpening my skills through project development,
+          code improvement, and learning new technologies.
+        </p>
+      </div>
+    </section>
+  );
+}
+
+export default AboutMe;
