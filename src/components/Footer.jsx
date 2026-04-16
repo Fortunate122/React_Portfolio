@@ -1,7 +1,7 @@
 function Footer() {
     return (
       <footer>
-        <p>My 2025 Portfolio</p>
+        <p>David Saldaña | Portfolio</p>
         <div className="social-links">
           <a href="https://github.com/Fortunate122" target="_blank" rel="noopener noreferrer">
             GitHub
