@@ -69,6 +69,9 @@ function Contact() {
   return (
     <section>
       <h2>Contact Me</h2>
+      <p className="contact-info">
+        If you’re interested in working together, have an opportunity to discuss, or would like more information about my experience, please leave your contact details and a message below. I’ll respond as soon as possible.
+      </p>
       <form
         name="contact"
         method="POST"
